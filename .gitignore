@@ -1,7 +1,31 @@
-/build_lab.py
+# macOS metadata
 .DS_Store
 ._*
+
+# Python bytecode and caches
 __pycache__/
-.ipynb_checkpoints/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local Python environments
 .venv/
+venv/
+env/
+
+# Jupyter autosaves
+.ipynb_checkpoints/
+
+# Local lab generation script
+/MSCS_634_Lab_1/build_lab.py
+
+# Local environment secrets
 .env
+.env.*
+!.env.example
+
+# Temporary editor and Office files
+*.swp
+*.swo
+~$*

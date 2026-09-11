@@ -39,4 +39,4 @@ The dataset was created with a fixed random seed so the analysis is reproducible
 
 1. Place the notebook and CSV in the same directory.
 2. Open the notebook in Jupyter and run the first code cell (`%pip install -q pandas numpy matplotlib`).
-3. Restart the kernel if prompted, then choose **Kernel → Restart & Run All.
+3. Restart the kernel if prompted, then choose Kernel → Restart & Run All.
