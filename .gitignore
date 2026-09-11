@@ -1,0 +1,7 @@
+/build_lab.py
+.DS_Store
+._*
+__pycache__/
+.ipynb_checkpoints/
+.venv/
+.env
