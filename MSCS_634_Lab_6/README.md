@@ -30,7 +30,3 @@ Source: https://archive.ics.uci.edu/dataset/352/online+retail
 ## Challenges and decisions
 
 Cleaning removed cancellations and invalid rows. The analysis retains the 100 most frequent items and multi-item baskets to control combinatorial growth. A 3% support threshold balances useful patterns with readable output. Postage-related rules are flagged as operational rather than automatically actionable.
-
-## Running and submitting
-
-Open the notebook, run its setup cell, restart the kernel if prompted, and choose **Run All**. Replace `YOUR NAME HERE`, upload this folder to a public repository such as `MSCS_634_Lab_6`, and submit its URL.
